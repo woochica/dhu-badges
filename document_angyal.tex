@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage[vcentering,dvips]{geometry}
+\geometry{papersize={96mm,56mm},total={90mm,50mm}}
+
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{latexsym}
+\def\magyarOptions{defaults=hu-min}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage[usenames]{color}
+\usepackage{setspace}
+
+\definecolor{Bright}{rgb}{0.8,0.8,0.8}
+\definecolor{Dark}{rgb}{0,0.25,0.56}
+\definecolor{Golden}{rgb}{1,0.98,0.518}
+
+\pagestyle{empty}
+\pagecolor{Golden}
+\setlength{\unitlength}{1in}
+\setlength{\topmargin}{-1.5in}
+\setlength{\hoffset}{0in}
+\setlength{\voffset}{0in}
+\setlength{\textheight}{1.75in}
+
+\newcommand\BackgroundPic{
+  \put(0,0){
+    \parbox[b][\paperheight]{\paperwidth}{%
+      \vfill
+      \centering
+      \includegraphics[width=\paperwidth,height=\paperheight]{background}%
+      \vfill}}}
+
+\begin{document}
+\AddToShipoutPicture{\BackgroundPic}
+
+$cards$
+
+\end{document}
