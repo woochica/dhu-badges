@@ -5,7 +5,11 @@ legyártja a névkártyákat nyomdakész PDF-ben 1:1 méretarányban (90x50mm) k
 
 Az adatforrás vesszővel tagolt CSV formátum az alábbi séma szerint:
 
-    "Név","Becenév","Cég","Beosztás","IsmerkedQ","Webmester","Sminkmester","Programozó"
+    "Név","Becenév","Cég","Beosztás","Ismerkedő","Webmester","Sminkmester","Programozó"
+
+## Telepítés
+
+  1. yum install emacs texlive-latex
 
 ## Használat
 
@@ -15,7 +19,7 @@ Az adatforrás vesszővel tagolt CSV formátum az alábbi séma szerint:
 
   2. Futtasd le a gyártót:
 
-     `M-x dhu/make-business-cards`
+     `M-x dhu/make-badges`
 
   3. A generált LaTeX dokumentumból készíts PDF-et (`print_badges.tex` a megadott kimeneti fájl neve):
 
