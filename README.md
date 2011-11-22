@@ -9,7 +9,7 @@ Az adatforrás vesszővel tagolt CSV formátum az alábbi séma szerint:
 
 ## Telepítés
 
-  1. yum install emacs texlive-latex
+  1. `yum install emacs texlive-latex`
 
 ## Használat
 
