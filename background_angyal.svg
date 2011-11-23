@@ -15,7 +15,7 @@
    inkscape:export-filename="/media/slinkpassport/slink/slink/drupalkonf/2009/drupal_bg.png"
    inkscape:version="0.48.1 r9760"
    sodipodi:version="0.32"
-   sodipodi:docname="background.pdf"
+   sodipodi:docname="background_angyal.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-xdpi="1000"
    inkscape:export-ydpi="1000"
@@ -53,13 +53,19 @@
    id="namedview19"
    showgrid="false"
    inkscape:zoom="1.7390354"
-   inkscape:cx="213.5025"
-   inkscape:cy="39.667214"
+   inkscape:cx="160.50117"
+   inkscape:cy="79.399751"
    inkscape:window-x="0"
    inkscape:window-y="26"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
 <g
+   id="g6203"
+   transform="matrix(1.25,0,0,-1.25,0.13457179,199.171)"><path
+     d="m 0,0 273.14645,0 0,159.33542 L 0,159.33542 0,0 z"
+     style="fill:#fffa84;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path6205"
+     inkscape:connector-curvature="0" /></g><g
    id="g12"
    transform="matrix(0.08812363,0,0,-0.08812363,-24.965162,494.90159)"><g
      id="g14"><g
@@ -859,7 +865,7 @@
 
 
 <rect
-   style="fill:#ffffff;fill-opacity:1"
+   style="fill:#fffa84;fill-opacity:1"
    id="rect5635"
    width="194.36063"
    height="103.50565"
@@ -883,8 +889,8 @@
    height="56.928108"
    width="185.16013"
    id="rect5637"
-   style="fill:#ffffff;fill-opacity:1" /><rect
-   style="fill:#ffffff;fill-opacity:1"
+   style="fill:#fffa84;fill-opacity:1" /><rect
+   style="fill:#fffa84;fill-opacity:1"
    id="rect5639"
    width="344.44382"
    height="125.93188"
